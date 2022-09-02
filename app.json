@@ -1,0 +1,7 @@
+{
+    "name": "expectations_meroxa",
+    "language": "python",
+    "resources": {
+        "source": "fixtures/demo-cdc.json"
+    }
+}
