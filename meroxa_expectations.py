@@ -33,7 +33,7 @@ def expectations_run(df):
         ret = run("l")
         print("  +++++++++++++++++++++++ RAN A RUN {}".format(ret), flush=true)
         
-        """
+        
      
         data_context_config = DataContextConfig(
             expectations_store_name="expectations_store",
@@ -182,7 +182,7 @@ def expectations_run(df):
 
         context.add_checkpoint(**checkpoint_config)
 
-        """
+    
         results = context.run_checkpoint(
             checkpoint_name="meroxa_check",
             validations=[
